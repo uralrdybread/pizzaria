@@ -5,4 +5,5 @@ export class Food{
     tags?:string[];
     imageUrl!:string;
     cookTime!:string;
+    toppings?:string[];
 }

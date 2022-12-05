@@ -1,14 +1,12 @@
-<div *ngIf="tags">
+<!-- <div *ngIf="tags">
     <a *ngFor="let tag of tags" routerLink="/tag/{{ tag.name }}">
       {{ tag.name }}({{ tag.count }})
     </a>
-  </div>
-  <mat-chip-listbox aria-label="Fish selection">
-    <mat-chip-option>One fish</mat-chip-option>
-    <mat-chip-option>Two fish</mat-chip-option>
-    <mat-chip-option>Two fish</mat-chip-option>
-    <mat-chip-option>Two fish</mat-chip-option>
-    <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
-    <mat-chip-option color="warn">Warn fish</mat-chip-option>
+  </div> -->
+
+
+<div >
+  <mat-chip-listbox aria-label="Food Filter Selection">
+    <mat-chip-option *ngFor="let tag of tags" routerLink="/tag/{{ tag.name }}">{{ tag.name }}({{ tag.count }})</mat-chip-option>
   </mat-chip-listbox>
-  
+</div>
