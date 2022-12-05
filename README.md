@@ -1,3 +1,6 @@
+This is a restaurant pizzeria idea I had thought of. I wanted to make a simple layout that incorporated a search function and a way to easily filter through the different food types. The search is fully functional and looks for keywords in the title of foods. The “chips” are a feature of Angular Material I’ve been wanting to use in some functional way. Clicking on a chip will filter down the list of food presented to the user. It does this by looking for keywords in the tags associated with the food group.
+
+
 # Pizzaria
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
