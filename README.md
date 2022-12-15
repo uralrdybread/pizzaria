@@ -1,8 +1,12 @@
 https://pizzeria-2c870.web.app/
 
-This is a restaurant pizzeria idea I came up with. I wanted to make a simple layout that incorporated a search function and a way to easily filter through the different food types. The search is fully functional and looks for keywords in the title of foods. The “chips” are a feature of Angular Material I’ve been wanting to use in some functional way. Clicking on a chip will filter down the list of food presented to the user. It does this by looking for keywords in the tags associated with the food group. 
+This is a restaurant pizzeria idea I came up with. I wanted do do a few things in particular with the site and that was the Search and Filter functionality
 
-The project incorporates both BootStrap 5 and Angular Material.
+The Search function appears at the top of the screen and is fully functional. It queries for keywords in the title of foods.
+
+The “chips” are a feature of Angular Material I’ve been wanting to use in some functional way. Clicking on a chip will filter down the list of food presented to the user. It does this by looking for keywords in the tags service associated with the food group. 
+
+The project incorporates both BootStrap 5 and Angular Material. Eventually, I would like to clean up the item selection cards and maybe create a cart component to store and caluclate prices.
 
 
 # Pizzaria
